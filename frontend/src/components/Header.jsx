@@ -10,7 +10,7 @@ const Header = () => {
                <p className='text-3xl md:text-4xl lg:text-5xl text-white font-semibold leading-tight md:leading-tight lg:leading-tight'>Trusted Doctors <br /> For your Appointment</p>
                <div className='flex flex-col md:flex-row items-center gap-3 text-dark text-sm font-light'>
                 <img className='w-28' src={assets.group_profiles} alt="" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aliquam dicta aperiam quas atque recusandae laboriosam est soluta quia quos, ipsa tenetur ullam ipsum mollitia. Alias placeat dignissimos eaque ut, <br className='hidden sm:block' /></p>
+                <p>"Trusted Doctors brings you reliable, expert healthcare at your fingertips. Schedule appointments effortlessly with certified professionals who prioritize your well-being. Experience personalized care and peace of mind, every step of the way." <br className='hidden sm:block' /></p>
                </div>
                <a href="#speciality" className='flex items-center gap-2 bg-punk px-8 py-3 rounded-full text-gray-600 text-sm m-auto md:m-0 hover:scale-105 transition-all duration-300'>
                 Book Appointment <img className='w-3' src={assets.arrow_icon} alt="" />
