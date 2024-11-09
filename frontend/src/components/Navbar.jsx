@@ -26,6 +26,7 @@ const Navbar = () => {
                 alt=""
             />
 
+
             <ul className='hidden md:flex text-title items-start gap-5 font-medium'>
                 <NavLink to='/'>
                     <li className='py-1'>
