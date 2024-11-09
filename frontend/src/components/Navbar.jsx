@@ -16,6 +16,10 @@ const Navbar = () => {
         localStorage.removeItem('token')
     }
 
+    const handleRedirect = () => {
+        window.location.href = 'https://docappointment-admin.onrender.com/';
+    };
+
 
     return (
         <div className='flex items-center justify-between text-sm py-4 mb-5 border-b border-b-gray-400'>
@@ -53,6 +57,16 @@ const Navbar = () => {
                     </li>
                     <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />
                 </NavLink>
+
+                <NavLink to='https://docappointment-admin.onrender.com/'>
+
+                    <li className='py-1 bg-punk text-black px-2 rounded-full font-light hidden md:block'>
+                        Admin/Doctor login
+                    </li>
+                    
+                </NavLink>
+
+                
 
             </ul>
 
@@ -97,6 +111,8 @@ const Navbar = () => {
                         <NavLink onClick={() => setShowMenu(false)} to='/doctors'><p className='px-4 py-2 rounded-full inline-block '>All Doctors</p></NavLink>
                         <NavLink onClick={() => setShowMenu(false)} to='/about'><p className='px-4 py-2 rounded-full inline-block '>About</p></NavLink>
                         <NavLink onClick={() => setShowMenu(false)} to='/contact'><p className='px-4 py-2 rounded-full inline-block '>Contact</p></NavLink>
+                        <NavLink onClick={() => setShowMenu(false)} to='https://docappointment-admin.onrender.com/'><p className='py-1 bg-punk text-black px-2 rounded-full font-light'>Admin/Doctor Login</p></NavLink>
+                        
 
 
                     </ul>
