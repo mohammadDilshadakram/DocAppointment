@@ -14,10 +14,10 @@ const About = () => {
 
         <div className='flex flex-col justify-center gap-6 md:w-2/4 text-sm text-white'>
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem deserunt exercitationem, minus, possimus aliquam enim eos cumque quaerat voluptate impedit dignissimos error? Recusandae, est odio. Eos quidem nesciunt numquam dolore.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab adipisci maiores culpa ea esse repellendus labore dolore officia, neque quae sunt quis vel assumenda necessitatibus enim delectus voluptatibus obcaecati. Quam.</p>
+          <p>"We are dedicated to connecting patients with trusted healthcare providers, offering a seamless platform for managing appointments and medical needs with ease and confidence."</p>
+          <p>"We are committed to enhancing healthcare accessibility by connecting patients with trusted professionals, simplifying appointment booking, and ensuring quality care at every step."</p>
           <b className='text-dark'>Our Vision</b>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates explicabo cupiditate exercitationem expedita magni dolor optio velit pariatur id, autem molestias ratione minima vel repellat amet delectus soluta voluptate aut.</p>
+          <p>"To empower individuals with accessible, reliable healthcare solutions, making quality care and expert guidance available to everyone, anytime."</p>
 
         </div>
       </div>
@@ -32,18 +32,18 @@ const About = () => {
       <div className='flex flex-col md:flex-row mb-20 text-center justify-around'>
 
         <div className='border border-gray-400 rounded-md px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-primary hover:text-dark transition-all duration-300 text-white cursor-pointer'>
-          <b> Efficiency: </b>
-          <p>Bahut efficient hai </p>
+          <b> Trusted Professionals </b>
+          <p>Access a network of verified doctors committed to providing quality care. </p>
         </div>
 
         <div className='border border-gray-400 rounded-md px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-primary hover:text-dark transition-all duration-300 text-white cursor-pointer'>
-        <b>Conveniance  </b>
-        <p>Bahut convenient hai, bhai</p>
+        <b>Seamless Experience</b>
+        <p> Book appointments effortlessly with a user-friendly interface and quick access to healthcare services.</p>
         </div>
 
         <div className='border border-gray-400 rounded-md px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-primary hover:text-dark transition-all duration-300 text-white cursor-pointer'>
-        <b>Personalization </b>
-        <p>ek dum personalize hai</p>
+        <b>Personalized Care</b>
+        <p> Tailored solutions to meet your unique health needs, ensuring a comfortable and reliable experience.</p>
         </div>
 
       </div>

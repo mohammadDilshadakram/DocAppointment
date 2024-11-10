@@ -263,7 +263,7 @@ const cancelAppointment=async (req,res)=>{
 
         await doctorModel.findByIdAndUpdate(docId,{slots_booked})
 
-        res.json({success:true,message:'Appointment lawde mein gaya'})
+        res.json({success:true,message:'Appointment Cancelled'})
 
         
     } catch (error) {

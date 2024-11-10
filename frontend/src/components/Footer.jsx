@@ -10,7 +10,7 @@ const Footer = () => {
             {/* left section */}
             <div>
                 <img className='mb-5 w-40' src={assets.logo} alt="" />
-                <p className='w-full md:w-2/3 text-dark leading-6'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, dignissimos quaerat? Sint, facilis distinctio? Ipsam fugit tenetur voluptatibus, impedit nulla incidunt consequuntur maxime eum exercitationem deleniti, minima accusamus adipisci sapiente!</p>
+                <p className='w-full md:w-2/3 text-dark leading-6'>"This is a full stack website built with the MERN stack and other technologies, featuring three user roles: doctor, patient, and admin. Each user type has dedicated login access and functionalities."</p>
             </div>
 
 
@@ -33,8 +33,8 @@ const Footer = () => {
                 <p className='text-xl text-teal-300 font-medium mb-5'>Follow us</p>
                 <ul  className='text-dark'>
 
-                    <li>12345678</li>
-                    <li>abc@gmail.com</li>
+                    <li>6291198856</li>
+                    <li>mddilshadakram123@gmail.com</li>
                 </ul>
 
             </div>
