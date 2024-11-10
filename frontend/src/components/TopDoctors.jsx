@@ -26,7 +26,7 @@ const TopDoctors = () => {
                 .loader:after {
                     content: "";
                     grid-area: 1/1;
-                    background: #514b82;
+                    background: #4DB6AC;
                     animation: 
                         l6-1 1.5s infinite linear,
                         l6-2 1.5s infinite linear;
